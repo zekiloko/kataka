@@ -1,0 +1,221 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+/* BODY */
+body {
+	max-width: 100%;
+    overflow-x: hidden;
+    background-image: url("/web_images/lines_bg.png");
+	background-position: left top;
+    background-repeat: repeat-x;
+	
+	font-family: 'Fira Sans', sans-serif;
+}
+
+
+/* HEADINGS */
+h1, h2 { 
+   font-family: 'Fira Sans', sans-serif; font-weight:400;
+}
+
+h1 {
+  font-weight:400;
+  letter-spacing:+1px;
+  margin-top:90px;
+  margin-left:115px;
+  font-size:30px;
+}
+
+h2 {
+	font-weight: 500;
+	letter-spacing: 1px;
+	margin: 20px 0;
+	margin-left: 115px;
+	font-size: 16px;
+	color: #c4d205;
+}
+
+
+/* TEXT */
+p {
+	font-weight: 500;
+	margin: 10px 0;
+	margin-left: 115px;
+	font-size: 14px;
+	text-align: left;
+}
+
+ul {
+	font-weight:500;
+	margin:10px 0;
+	margin-left:115px;
+	font-size:14px;
+}
+
+/* LINKS */
+a:link, a:visited, a:hover, a:active { 
+   font-family: 'Fira Sans', sans-serif; font-weight:500; text-decoration:none;
+}
+
+a:link {
+    color: #c4d82d;
+	background-color: transparent;
+}
+
+a:visited {
+    color: #787c90;
+	background-color: transparent;
+}
+
+a:hover {
+    color: #fbb52b;
+	background-color: transparent;
+}
+
+a:active {
+    color: #fbb52b;
+	background-color: transparent;
+} 
+
+
+/* TOP IMAGES */
+.TDM_logo img {
+	left: 40px;
+	position: absolute;
+	top: 20px;
+}
+
+.TDM_lines img {
+	
+	position: absolute;
+	top: 10px;
+	right: 0;
+}
+
+
+/* BUTTONS */
+
+.btn {
+	font-weight: 500;
+	font-size: 16px;
+	font-color: white;
+	margin-left:3px;
+	margin-right:3px;
+	margin-top:3px;
+	margin-bottom:3px;
+	background-color: #2ba9de;
+	
+}
+
+/* FOOTER */
+ .abbvie_logo img {
+	
+	position: absolute;
+	bottom: 66px;
+	right: 40px;
+} 
+
+.footer {
+  height: 26px; 
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  background: #00003a;
+  width: 100%;
+}
+
+
+/* TABLES */
+.content table {
+	margin-left:115px;
+}
+
+.content table tr th {
+	color: #FFF;
+	background-color: #0b1237;
+	border-bottom-width: thin;
+	border-bottom-style: solid;
+	border-bottom-color: #FFF;
+	border-right-width: thin;
+	border-right-style: solid;
+    border-right-color: #FFF;
+}
+
+.content table tr td {
+	border-bottom-width: thin;
+	border-bottom-style: solid;
+	border-bottom-color: #FFF;
+	border-right-width: thin;
+	border-right-style: solid;
+	border-right-color: #FFF;
+}
+
+.content table tr:nth-child(even) {background-color: #e3e5eb}
+.content table tr:nth-child(odd) {background-color: #abadbd}
+
+.content table p {
+	margin-left: 20px;
+}
+
+
+/* BUTTONS */
+/*.button {
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+} */
+
+.button {
+  display: inline-block;
+  border-radius: 4px;
+  background-color: #2BAADF;
+  border: none;
+  color: #FFFFFF;
+  text-align: center;
+  font-size: 15px;
+  padding: 10px;
+  transition: all 0.5s;
+  cursor: pointer;
+  margin: 3px;
+}
+
+.button {
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+}
+
+.button:hover {
+    background-color: #c4d205; /* Green */
+    color: white;
+}
+
+/*.button span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.button span:after {
+  content: '»';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+.button:hover span {
+  padding-right: 25px;
+}
+
+.button:hover span:after {
+  opacity: 1;
+  right: 0;
+}*/
