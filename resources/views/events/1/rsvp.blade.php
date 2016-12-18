@@ -23,7 +23,7 @@
 
 <p>Kindly confirm your participation in the HUCR-043 Meeting below or by contacting Maria Tomova by <a href="mailto:mariatoms@msn.com">email</a> or by phone at (514) 967-4914.</p>
 <h2>Confirm Your Participation</h2>
-<form method="POST" action="/event/{{ $event->id }}/invitees">
+<form method="POST" action="/events/{{ $event->id }}/invitees">
 {{ csrf_field() }}
  <p> <input name="attending" type="radio" value="1" />Yes, I will attend!&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
   <input name="attending" type="radio" value="0" />No, I won't be able to attend</p>

@@ -13,19 +13,22 @@
 
 Route::get('/', 'HomeController@index');
 
-Route::get('event/{event}/rsvp', function(App\Event $event) {
+Route::get('events/{event}/rsvp', function(App\Event $event) {
 	return view('events.' . $event->id .'.rsvp', [
 		'event' => $event		
 	]);
 });
 
-Route::post('event/{event}/invitees', function(App\Event $event) {
+Route::post('events/{event}/invitees', function(App\Event $event) {
 	$event->invitees()->create(request()->all());
 	return back();
 });
 
-Route::get('event/{event}/invitees', function(App\Event $event) {
-	return $event->invitees;
+Route::get('events/{event}/invitees', function(App\Event $event) {
+	return view('events.' . $event->id .'.invitees', [
+		'attending' => $event->invitees()->where('attending', 1)->get(),
+		'notattending' => $event->invitees()->where('attending', 0)->get()
+	]);
 });
 
 Auth::routes();
