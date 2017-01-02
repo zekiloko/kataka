@@ -21,7 +21,10 @@ Route::get('events/{event}/rsvp', function(App\Event $event) {
 
 Route::post('events/{event}/invitees', function(App\Event $event) {
 	$event->invitees()->create(request()->all());
-	return back();
+	return view('events.' . $event->id . '.answer', [
+		'attending' => request()->input('attending'),
+		'name' => request()->input('name'),
+	]);
 });
 
 Route::get('events/{event}/invitees', function(App\Event $event) {
