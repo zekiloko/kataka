@@ -2,9 +2,8 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
   <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-  <title>KATAKA HUCR-043 Forms</title>
+  <title>Invitees - created for ABBVIE</title>
   <link href="/css/style.css" rel="stylesheet" type="text/css" />
-  <link href="https://fonts.googleapis.com/css?family=Fira+Sans:400,500,600" rel="stylesheet">
 
   <script type="text/javascript">
   var tableToExcel = (function() {
@@ -24,15 +23,13 @@
 
 <body>
 <div class="content">
-    <div class="TDM_logo">
-        <img src="/web_images/TDM_logo.png" width="53" height="141" />
-    </div>
+  <div class="IDB_logo">
+  <img src="/web_images/IBD_logo_66.png" alt="IDB logo" width="131" height="240" />
+  </div>
 
-    <div class="TDM_lines">
-        <img src="/web_images/top-right_lines.png" width="163" height="108" />
-    </div>
-
-    <h1> LIST OF ATTENDEES </h1>
+    <h1> August 2<sup>nd</sup>, 2019 | Sandman Signature Hotel | Vancouver,&nbsp;BC<br />
+         List of Attendees </h1>
+    <br /><br /><br />
 
     <p>Below, you will find the responses people have given to your invitation so far: attending or not attending. Once everyone has RSVP'd, you may download the final attendees list in Excel format and use it to lay out your meeting materials.</p>
     <p><i>Note: We can track how many people have opened and clicked through your invitation e-mail. </i></p>
@@ -66,24 +63,22 @@
 </table>
 </div>
 
-<p><btn><input name="DOWNLOAD" type="button" onclick="tableToExcel('attendeesTable', 'HUCR-043 Attendees')" class="button" value="DOWNLOAD LIST (Excel) >>"/></btn></p>
+<p><btn><input name="DOWNLOAD" type="button" onclick="tableToExcel('attendeesTable', 'Regional IBD Consult Attendees')" class="button" value="DOWNLOAD LIST (Excel) >>"/></btn></p>
 
     
 
     
 
 
-    <p>In return for your participation, you will be provided with an honorarium in the amount of 1$.</p>
-    <p>If you have any questions we ask that you speak with Maria Tomova, by <a href="mailto:mariatoms@msn.com">email</a> or by phone at (514) 967-4914.</p>
+   
+    <p>If you have any questions we ask that you speak with Melissa Di Re, by <a href="mailto:melissa@katakamedical.com">email</a> or by phone at (514) 357-2181.</p>
     <p>We look forward to seeing you for this important initiative.</p>
     <p>Your participation is essential to the success of this meeting and your valuable input will help us address your needs in future events.</p>
     <p>Sincerely, </p>
-    <p><b>Maria Tomova</b></p>
+    <p><b>Melissa Di Re</b></p>
 
 
-    <div class="abbvie_logo">
-        <img src="/web_images/abbvie_logo.png" width="128" height="23" />
-    </div>
+    
 </div>
 
 <footer class="footer">
